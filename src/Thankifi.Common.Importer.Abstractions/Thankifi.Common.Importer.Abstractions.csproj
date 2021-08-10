@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Title>Thankifi.Common.Importer.Abstractions</Title>
+        <Description>Common abstractions to effectuate a dataset import for Thankifi.</Description>
+        <Authors>Lucas Maximiliano Marino</Authors>
+        <PackageProjectUrl>https://github.com/thankifi/package.importer</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/thankifi/package.importer</RepositoryUrl>
+        <Copyright>Copyright © Lucas Maximiliano Marino 2021</Copyright>
+    </PropertyGroup>
+    
+</Project>
