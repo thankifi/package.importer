@@ -3,7 +3,6 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <Title>Thankifi.Common.Importer</Title>
         <Description>Common resources to effectuate a dataset import for Thankifi.</Description>
         <Authors>Lucas Maximiliano Marino</Authors>
