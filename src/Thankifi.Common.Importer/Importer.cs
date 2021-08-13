@@ -6,6 +6,7 @@ using System.Net.Mime;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Thankifi.Common.Importer.Abstractions;
 using Thankifi.Common.Importer.Abstractions.Options;
 using Thankifi.Common.Importer.Model;
@@ -17,12 +18,12 @@ namespace Thankifi.Common.Importer
         private readonly ILogger<Importer> _logger;
         private readonly HttpClient _httpClient;
 
-        public Importer(ILogger<Importer> logger, HttpClient httpClient, ImportOptions options)
+        public Importer(ILogger<Importer> logger, HttpClient httpClient, IOptions<ImportOptions> options)
         {
             _logger = logger;
             _httpClient = httpClient;
 
-            _httpClient.BaseAddress = options.Source;
+            _httpClient.BaseAddress = options.Value.Source;
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(MediaTypeNames.Application.Json));
         }
 
