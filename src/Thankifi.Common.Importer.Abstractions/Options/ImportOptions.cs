@@ -1,6 +1,6 @@
 using System;
 
-namespace Thankifi.Common.Importer.Options
+namespace Thankifi.Common.Importer.Abstractions.Options
 {
     public class ImportOptions
     {

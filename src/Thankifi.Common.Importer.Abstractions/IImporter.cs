@@ -1,8 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Thankifi.Common.Importer.Model;
 
-namespace Thankifi.Common.Importer
+namespace Thankifi.Common.Importer.Abstractions
 {
     public interface IImporter
     {

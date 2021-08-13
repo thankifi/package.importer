@@ -1,6 +1,7 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
-using Thankifi.Common.Importer.Options;
+using Thankifi.Common.Importer.Abstractions;
+using Thankifi.Common.Importer.Abstractions.Options;
 
 namespace Thankifi.Common.Importer
 {

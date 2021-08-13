@@ -6,8 +6,9 @@ using System.Net.Mime;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Thankifi.Common.Importer.Abstractions;
+using Thankifi.Common.Importer.Abstractions.Options;
 using Thankifi.Common.Importer.Model;
-using Thankifi.Common.Importer.Options;
 
 namespace Thankifi.Common.Importer
 {
