@@ -8,7 +8,7 @@ namespace Thankifi.Common.Importer.Abstractions.Options
 
         public ImportOptions()
         {
-            Source = new Uri("https://github.com/thankifi/dataset/blob/main/src/");
+            Source = new Uri("https://raw.githubusercontent.com/thankifi/dataset/main/src/");
         }
         
         public ImportOptions(string source)
